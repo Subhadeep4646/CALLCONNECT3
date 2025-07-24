@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navigate, Route, Routes } from "react-router";
 import useAuthUser from "./hooks/useAuthUser.js";
-import { useThemeStore } from "./store/useThemeStore.js";
+import { useThemeStore } from "./Store/useThemeStore.js";
 import SignUpPage from './Pages/SignUpPage.jsx';
 import LoginPage from './Pages/LoginPage.jsx';
 import CallPage from './Pages/CallPage.jsx'
